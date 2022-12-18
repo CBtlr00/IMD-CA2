@@ -42,10 +42,6 @@ body {
     max-width: 100%;
 }
 
-.btn:hover {
-    background-color: RoyalBlue;
-}
-
 .hidden {
     display: none;
 }
