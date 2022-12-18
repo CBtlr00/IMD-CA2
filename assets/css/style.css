@@ -1,0 +1,91 @@
+body {
+    position: relative;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+.hr.solid {
+    border-top: 2px solid #999;
+}
+
+.parallax {
+    background-image: url(../images/bg.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-text-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.main-title {
+    font-size: 3rem;
+}
+
+.section {
+    padding: 100px 0;
+    position: relative;
+}
+
+.img {
+    vertical-align: middle;
+    border-style: none;
+    max-width: 100%;
+}
+
+.btn:hover {
+    background-color: RoyalBlue;
+}
+
+.hidden {
+    display: none;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 563px;
+    width: 987px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 563px;
+    width: 987px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .inline-block {
+    display: inline-block;
+    padding: 2em;
+  }
+
+  .contact-form {
+      background-color: whitesmoke;
+      padding: 3em;
+  }
